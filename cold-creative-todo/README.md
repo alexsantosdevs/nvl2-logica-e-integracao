@@ -55,30 +55,3 @@ cd cold-creative-todo/frontend
 
 Abra index.html em qualquer navegador moderno ou sirva com Live Server:
 npx live-server .
-
-Arquitetura
-O projeto segue uma arquitetura modular com separação clara de responsabilidades:
-
-Components: Cada componente da UI é autocontido e manipula seu próprio DOM
-
-Storage: Camada isolada para persistência em localStorage
-
-Filters: Lógica de filtro separada da renderização
-
-Utils: Funções puras reutilizáveis
-
-Main: Orquestração central que conecta todos os módulos
-
-Performance
-Nota 100/100 no Lighthouse
-
-Renderização otimizada com atualizações seletivas do DOM
-
-Zero bibliotecas externas
-
-Animações aceleradas por GPU via transform e opacity
-
-Event delegation para reduzir listeners
-
-Licença
-Proprietária — Cold Creative Platform © 2026
