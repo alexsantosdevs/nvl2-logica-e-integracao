@@ -1,0 +1,53 @@
+<section class="app-shell">
+    <header class="app-header">
+        <div class="app-brand">
+            <div class="app-logo">❄️</div>
+            <div>
+                <h1 class="app-title">Cold Creative To-Do</h1>
+                <p class="app-subtitle">Cada tarefa concluída é um passo à frente.</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="app-main">
+        <form id="taskForm" class="task-form" autocomplete="off">
+            <div class="task-input-wrapper">
+                <span class="task-input-icon">+</span>
+                <input
+                    type="text"
+                    id="taskInput"
+                    class="task-input"
+                    placeholder="Adicione uma nova tarefa..."
+                    maxlength="200"
+                    aria-label="Nova tarefa"
+                >
+                <button type="submit" class="btn btn-primary" id="submitBtn">
+                    <span class="btn-text">Adicionar</span>
+                    <span class="btn-icon">↵</span>
+                </button>
+            </div>
+            <div class="task-form-feedback" id="taskFormFeedback"></div>
+        </form>
+
+        <div id="filterBar"></div>
+
+        <div id="taskList" class="task-list-container"></div>
+
+        <div class="task-footer" id="taskFooter">
+            <span id="taskCounter" class="task-counter"></span>
+            <button id="clearCompletedBtn" class="btn btn-ghost btn-danger">
+                Limpar concluídas
+            </button>
+        </div>
+    </main>
+
+    <footer class="app-footer">
+        <div class="footer-brand">
+            <span class="footer-text">Desenvolvido por</span>
+            <strong class="footer-studio">ALEX SANTOS</strong>
+        </div>
+        <div class="footer-logo">
+            <img src="public/images/logoc.png" alt="Cold Creative Studio" class="footer-logo-img">
+        </div>
+    </footer>
+</section>
