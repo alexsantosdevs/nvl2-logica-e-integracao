@@ -5,10 +5,8 @@ Este repositório contém projetos voltados para comportamento, interatividade e
 ## 🚀 Objetivo
 Evoluir a lógica de programação e criar interfaces dinâmicas e funcionais.
 
-## 📦 Projetos incluídos
+## 📦 Projetos incluídos (Até o momento)
 - To-do List Avançado
-- Dashboard Simples
-- Sistema de Tabs e Modais
 
 ## 🛠 Tecnologias
 - HTML5
